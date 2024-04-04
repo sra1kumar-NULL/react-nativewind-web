@@ -5,9 +5,9 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-      <View style={{backgroundColor:'red',height:100,width:100}}>
-      </View>
-      <header className="App-header">
+      <div className='bg-red-500 h-[100px] w-[100px]'>
+      </div>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -20,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
