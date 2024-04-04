@@ -5,8 +5,8 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-      <div className='bg-red-500 h-[100px] w-[100px]'>
-      </div>
+      <View className='bg-red-500 h-[100px] w-[100px]'/>
+      <div className='bg-blue-500 h-[100px] w-[100px]'/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
