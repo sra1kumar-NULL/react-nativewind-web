@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { View } from 'react-native';
+import React from "react";
 function App() {
   return (
     <div className="App">
+      <View style={{backgroundColor:'red',height:100,width:100}}>
+      </View>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
